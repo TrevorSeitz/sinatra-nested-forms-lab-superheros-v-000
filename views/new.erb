@@ -9,16 +9,16 @@
   <h1>Welcome to the Nested Forms Lab!</h1>
 
   <form action="/super_heroes" method="POST">
-    Pirate Name: <input type="text" id="team_name" name="team[name]">
-    Pirate Height: <input type="text" id="team_motto" name="team[motto]"><br>
+    Team Name: <input type="text" id="team_name" name="team[name]">
+    Team Motto: <input type="text" id="team_motto" name="team[motto]"><br>
 
-    Ship Name: <input type="text" id="super_hero_name_1" name="team[ships][][name]">
-    Ship Type: <input type="text" id="super_hero_type_1" name="team[ships][][type]">
-    Ship Booty: <input type="text" id="super_hero_booty_1" name="team[ships][][booty]"><br>
+    Super Hero Name: <input type="text" id="super_hero_name_1" name="team[superheroes][][name]">
+    Super Hero Power: <input type="text" id="super_hero_power_1" name="team[superheroes][][power]">
+    Super Hero Biography: <input type="text" id="super_hero_biography_1" name="team[superheroes][][biography]"><br>
 
-    Ship Name: <input type="text" id="super_hero_name_2" name="team[ships][][name]">
-    Ship Type: <input type="text" id="super_hero_type_2" name="team[ships][][type]">
-    Ship Booty: <input type="text" id="super_hero_booty_2" name="team[ships][][booty]"><br>
+    Super Hero Name: <input type="text" id="super_hero_name_2" name="team[superheroes][][name]">
+    Super Hero Power: <input type="text" id="super_hero_power_2" name="team[superheroes][][power]">
+    Super Hero Biography: <input type="text" id="super_hero_biography_2" name="team[superheroes][][biography]"><br>
 
     <input type="submit" id="Submit" value="submit">
   </form>
