@@ -9,7 +9,8 @@ class App < Sinatra::Base
   get '/new' do
     erb :"views/new"
   end
-  post '/teamss' do
+
+  post '/teams' do
     # binding.pry
     @team = Team.new(params[:team])
 
