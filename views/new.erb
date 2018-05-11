@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+
+<body>
+
+
+  <h1>Welcome to the Nested Forms Lab!</h1>
+
+  <form action="/super_heroes" method="POST">
+    Pirate Name: <input type="text" id="team_name" name="pirate[name]">
+    Pirate Height: <input type="text" id="team_motto" name="pirate[height]"><br>
+
+    Ship Name: <input type="text" id="ship_name_1" name="pirate[ships][][name]">
+    Ship Type: <input type="text" id="ship_type_1" name="pirate[ships][][type]">
+    Ship Booty: <input type="text" id="ship_booty_1" name="pirate[ships][][booty]"><br>
+
+    Ship Name: <input type="text" id="ship_name_2" name="pirate[ships][][name]">
+    Ship Type: <input type="text" id="ship_type_2" name="pirate[ships][][type]">
+    Ship Booty: <input type="text" id="ship_booty_2" name="pirate[ships][][booty]"><br>
+
+    <input type="submit" id="Submit" value="submit">
+  </form>
+
+  </body>
+  </html>
