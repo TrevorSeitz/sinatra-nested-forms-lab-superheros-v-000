@@ -4,4 +4,5 @@ class App < Sinatra::Base
 
   get '/' do
     erb :"views/new"
+  end
 end
