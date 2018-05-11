@@ -7,11 +7,11 @@ class App < Sinatra::Base
   require './config/environment'
 
   get '/' do
-    erb :"./app/views/super_hero"
+    erb :"super_hero"
   end
 
   get '/new' do
-    erb :"./app/views/super_hero"
+    erb :"super_hero"
   end
 
   post '/teams' do
@@ -24,7 +24,7 @@ class App < Sinatra::Base
 
     @members = Superhero.all
 
-    erb :"./app/views/team"
+    erb :"team"
   end
-  
+
 end
